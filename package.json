@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "agentkeepalive": "^3.1.4",
-    "eslint": "^6.2.0",
-    "eslint-config-prettier": "^6.0.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-prettier": "^3.0.0"
   },
   "devDependencies": {
@@ -19,8 +19,8 @@
     "@types/lodash": "^4.14.168",
     "@types/node": "^14.14.41",
     "@types/pino": "^6.3.5",
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/parser": "^2.34.0"
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0"
   },
   "repository": {
     "type": "git",
