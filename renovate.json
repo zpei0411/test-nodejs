@@ -6,7 +6,7 @@
       ],
       "groupName": "eslint",
       "schedule": [
-        "every 10mins"
+        "at any time"
       ],
       "automerge": true,
       "automergeType": "branch"
@@ -21,7 +21,7 @@
       ],
       "groupName": "devDependencies (non-major)",
       "schedule": [
-        "every 10mins"
+        "at any time"
       ],
       "automerge": true,
       "automergeType": "branch"
