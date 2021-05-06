@@ -1,5 +1,30 @@
 {
-  "extends": [
-    "config:base"
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "eslint"
+      ],
+      "groupName": "eslint",
+      "schedule": [
+        "every 10mins"
+      ],
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ],
+      "groupName": "devDependencies (non-major)",
+      "schedule": [
+        "every 10mins"
+      ],
+      "automerge": true,
+      "automergeType": "branch"
+    }
   ]
 }
