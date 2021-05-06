@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "agentkeepalive": "^3.1.4",
+    "agentkeepalive": "^4.0.0",
     "async": "^3.2.0",
     "aws-lambda": "^1.0.5",
     "aws-sdk": "^2.0.0",
