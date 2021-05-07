@@ -33,6 +33,16 @@
         "at any time"
       ],
       "automerge": true
+    },
+    {
+      "matchPackagePatterns": [
+        "babel"
+      ],
+      "groupName": "babel",
+      "schedule": [
+        "at any time"
+      ],
+      "automerge": true
     }
   ]
 }
