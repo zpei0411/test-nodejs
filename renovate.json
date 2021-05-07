@@ -1,60 +1,38 @@
 {
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:base"
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "eslint"
       ],
-      "separateMultipleMajor": true,
-      "separateMinorPatch": true,
-      "ignoreUnstable": true,
-      "timezone": "Europe/Oslo",
-      "assigneesFromCodeOwners": true,
-      "assigneesSampleSize": 1,
-      "labels": [
-        "dependencies"
+      "groupName": "eslint",
+      "schedule": [
+        "at any time"
       ],
-      "vulnerabilityAlerts": {
-        "labels": [
-          "security"
-        ]
-      },
-      "commitBody": "Dependency update (patch)",
-      "packageRules": [
-        {
-          "matchPackagePatterns": [
-            "eslint"
-          ],
-          "groupName": "eslint",
-          "schedule": [
-            "at any time"
-          ],
-          "automerge": true
-        },
-        {
-          "matchDepTypes": [
-            "devDependencies"
-          ],
-          "matchUpdateTypes": [
-            "patch",
-            "minor"
-          ],
-          "groupName": "devDependencies (non-major)",
-          "schedule": [
-            "at any time"
-          ],
-          "automerge": true
-        },
-        {
-          "matchSourceUrlPrefixes": [
-            "https://github.com/renovatebot/"
-          ],
-          "groupName": "All renovate packages",
-          "schedule": [
-            "at any time"
-          ],
-          "automerge": true
-        }
-      ]
+      "automerge": true
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ],
+      "groupName": "devDependencies (non-major)",
+      "schedule": [
+        "at any time"
+      ],
+      "automerge": true
+    },
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/renovatebot/"
+      ],
+      "groupName": "All renovate packages",
+      "schedule": [
+        "at any time"
+      ],
+      "automerge": true
     }
-  }
+  ]
 }
