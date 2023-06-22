@@ -9,7 +9,7 @@
   "dependencies": {
     "babel-cli": "^6.2.0",
     "babel-core": "^6.16.3",
-    "babel-loader": "^8.1.2",
+    "babel-loader": "^9.0.0",
     "babel-plugin-syntax-flow": "^6.11.0",
     "babel-plugin-syntax-object-rest-spread": "^6.0.0",
     "babel-preset-aws-lambda": "^1.0.0",
